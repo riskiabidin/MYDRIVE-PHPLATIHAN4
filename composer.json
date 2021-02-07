@@ -1,0 +1,13 @@
+{
+    "name": "abidin/phplatihan1",
+    "authors": [
+        {
+            "name": "riski abidin",
+            "email": "manggalawhisaka@gmail.com"
+        }
+    ],
+    "require": {},
+	"scripts":{
+		"server": "php -S localhost:8080"
+	}
+}
