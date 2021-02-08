@@ -19,7 +19,8 @@ class Review {
   public function getBody() {
     return $this->body;
   }
-  
+
+  //mencari data user yang bernilai id sama dengna userId  class Review
   public function getUser($users) {
     foreach ($users as $user) {
       if ($user->getId() == $this->userId) {
